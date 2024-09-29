@@ -121,5 +121,5 @@ The Gradio interface consists of two main tabs:
 
 ## URLs
 
-- **Hugging Face Transformers Library**: [Hugging Face](https://huggingface.co/transformers/)
+- **Hugging Face Space**: [Hugging Face](https://huggingface.co/spaces/Norahsal/Animals)
 - **Google Colab**:
