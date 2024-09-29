@@ -76,7 +76,29 @@ The Gradio interface consists of two main tabs:
   
 2. **Translations**:
    - Shows the translated caption and animal insights in Arabic.
+## Justification for Model Choices
 
+### Image Captioning
+- **Model Used**: **BLIP (Salesforce/blip-image-captioning-base)**
+- **Reason for Selection**: BLIP is an exceptional model when it comes to describing images. It’s designed to understand visual content deeply and generate captions that make sense. This makes it perfect for the project, as it ensures users get meaningful descriptions of the animals they upload.
+
+### Question Answering
+- **Model Used**: **deepset/roberta-base-squad2**
+- **Reason for Selection**: This model is great at digging into information and providing quick answers. It’s trained on a rich dataset, making it reliable for extracting insights about animals. The goal is to ensure users receive accurate and relevant information, and this model delivers just that. 
+  - **Considerations**: Although it excels in many areas, the model may struggle with highly specific or nuanced questions that fall outside the training data. Additionally, it may provide incomplete answers if the context is not sufficiently detailed.
+
+### Text-to-Speech
+- **Model Used**: **kakao-enterprise/vits-ljs**
+- **Reason for Selection**: When it comes to turning text into speech, this model stands out for its natural and clear audio. Listening to captions can enhance the experience, making it more engaging and accessible for everyone.
+
+### Translation
+- **Model Used**: **Helsinki-NLP/opus-mt-en-ar**
+- **Reason for Selection**: This translation model is highly regarded for its ability to accurately translate English text into Arabic. Reaching Arabic-speaking users is essential, and having reliable translations helps bridge language barriers and enrich the overall experience.
+  - **Considerations**: Although it provides reliable translations, it may not always capture the full nuances or cultural references of the original text, leading to potential misunderstandings. The quality of translation can also vary depending on the complexity of the sentences.
+
+### Overall Pipeline
+- **Reason for This Approach**: Each model in the pipeline has been carefully selected to ensure it fits perfectly with its role. Together, they create a smooth and engaging experience for users. From recognizing animals and generating informative captions to providing translations and audio.
+  
 ## Example Interaction
 
 1. **Input**: An image of a tiger.
