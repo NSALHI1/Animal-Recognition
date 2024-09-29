@@ -122,4 +122,4 @@ The Gradio interface consists of two main tabs:
 ## URLs
 
 - **Hugging Face Space**: [Hugging Face](https://huggingface.co/spaces/Norahsal/Animals)
-- **Google Colab**:
+- **Google Colab**:[Google Colab](https://colab.research.google.com/drive/1zRrGMN3FJqCe0heSqwHcX197FdUuQGSj?usp=sharing)
