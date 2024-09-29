@@ -97,17 +97,16 @@ The Gradio interface consists of two main tabs:
   - **Considerations**: Although it provides reliable translations, it may not always capture the full nuances or cultural references of the original text, leading to potential misunderstandings. The quality of translation can also vary depending on the complexity of the sentences.
 
 ### Packages
-1. **Transformers**: For using pre-trained models for tasks like translation, image captioning, and text-to-speech.
-   - Installation: `pip install transformers`
-
-2. **Gradio**: To create a user-friendly interface that allows users to interact with the application.
-   - Installation: `pip install gradio`
-
-3. **Torch**: A deep learning framework that supports the models used in the project.
-   - Installation: `pip install torch`
-
-4. **SciPy**: For handling audio file saving and manipulation.
-   - Installation: `pip install scipy`
+- Transformers: For using pre-trained models for tasks like translation, image captioning, and text-to-speech.
+- SciPy: For handling audio file saving and manipulation.
+- Torch: A deep learning framework that supports the models used in the project.
+- Gradio: To create a user-friendly interface that allows users to interact with the application.
+- Sentencepiece: For tokenization in various language processing tasks.
+- Timm: For vision-related models, especially in image classification.
+- Inflect: For converting numbers to words and pluralization.
+- Phonemizer: For phoneme conversion from text.
+- Py-espeak-ng: For text-to-speech capabilities.
+- Soundfile: For reading and writing audio files.
   
 ## Example Interaction
 
