@@ -96,8 +96,18 @@ The Gradio interface consists of two main tabs:
 - **Reason for Selection**: This translation model is highly regarded for its ability to accurately translate English text into Arabic. Reaching Arabic-speaking users is essential, and having reliable translations helps bridge language barriers and enrich the overall experience.
   - **Considerations**: Although it provides reliable translations, it may not always capture the full nuances or cultural references of the original text, leading to potential misunderstandings. The quality of translation can also vary depending on the complexity of the sentences.
 
-### Overall Pipeline
-- **Reason for This Approach**: Each model in the pipeline has been carefully selected to ensure it fits perfectly with its role. Together, they create a smooth and engaging experience for users. From recognizing animals and generating informative captions to providing translations and audio.
+### Packages
+1. **Transformers**: For using pre-trained models for tasks like translation, image captioning, and text-to-speech.
+   - Installation: `pip install transformers`
+
+2. **Gradio**: To create a user-friendly interface that allows users to interact with the application.
+   - Installation: `pip install gradio`
+
+3. **Torch**: A deep learning framework that supports the models used in the project.
+   - Installation: `pip install torch`
+
+4. **SciPy**: For handling audio file saving and manipulation.
+   - Installation: `pip install scipy`
   
 ## Example Interaction
 
