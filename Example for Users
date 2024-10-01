@@ -1,6 +1,6 @@
 # 1. Sample Image Input:
 # Here we will provide an example of uploading an image to the Gradio interface.
- you can use the image in this repositry ("elephant.webp") 
+ you can use the image in this repositry ('elephant.webp') 
 
 # Let's assume we have a sample image of a lion saved as 'sample_lion_image.jpg'.
 # This image will be uploaded to the Gradio interface to see the outputs.
