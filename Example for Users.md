@@ -1,5 +1,5 @@
 # Here we will provide an example of the project :
-- you can use the image from this repositry:
+- you can use the image from this repository:
 [elephant.webp](https://github.com/NSALHI1/Animal-Recognition/blob/main/elephant.webp)
 
 - Use Hugging face space to test the system:
