@@ -5,7 +5,7 @@
 
 # Let's assume we have a sample image of a lion saved as 'sample_lion_image.jpg'.
 # This image will be uploaded to the Gradio interface to see the outputs.
-
+[Space](https://huggingface.co/spaces/Norahsal/Animals)
 from PIL import Image
 
 # Load a sample image of a lion (replace this with any image path)
