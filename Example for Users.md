@@ -1,25 +1,16 @@
-# 1. Sample Image Input:
-# Here we will provide an example of uploading an image to the Gradio interface.
- you can use the image in this repositry  
+# Here we will provide an example of the project :
+- you can use the image from this repositry:
 [elephant.webp](https://github.com/NSALHI1/Animal-Recognition/blob/main/elephant.webp)
 
-# Let's assume we have a sample image of a lion saved as 'sample_lion_image.jpg'.
-# This image will be uploaded to the Gradio interface to see the outputs.
+- Use Hugging face space to test the system:
 [Space](https://huggingface.co/spaces/Norahsal/Animals)
-from PIL import Image
 
-# Load a sample image of a lion (replace this with any image path)
-sample_image = Image.open("sample_lion_image.jpg")
-sample_image.show()
+# After uploading this image in the Gradio, the following things will happen:
+ 1. The system will generate a caption describing the image.
+ 2. The pipeline will identify the animal (elephant in this case).
+ 3. You will get additional facts about elephants from the pre-defined context.
+ 4. The caption and facts will be translated to Arabic.
+ 5. An audio narration of the caption will be generated.
 
-# After uploading this image in the Gradio app, the following things will happen:
-# 1. The system will generate a caption describing the image.
-# 2. The pipeline will identify the animal (lion in this case).
-# 3. You will get additional facts about lions from the pre-defined context.
-# 4. The caption and facts will be translated to Arabic.
-# 5. An audio narration of the caption will be generated.
+* Try uploading different animal images like a tiger or a lion to see how the pipeline adapts.
 
-# Try uploading different animal images like a tiger or an elephant to see how the pipeline adapts.
-
-# For example:
-# Upload 'sample_tiger_image.jpg' to the interface and observe the outputs!
